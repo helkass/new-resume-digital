@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <div id="container--main">
@@ -45,7 +46,7 @@
       <section class="section--page">
         <h2>Skills & Qualifications</h2>
         <ul id="qualifications--list">
-          <li>✔️ 3 Years experience with front & backend development</li>
+          <li>✔️ 2 Years experience with front & backend development</li>
           <li>✔️ Extensive knowledge in API & Database Design.</li>
           <li>✔️ Extensive knowledge in UI/UX design application.</li>
         </ul>
@@ -56,13 +57,13 @@
 
         <div id="wrapper--techstack__items">
           <div class="card--techstack">
-            <span>PHP, JavaScript, NodeJS</span>
+            <span>JavaScript, NodeJS</span>
           </div>
           <div class="card--techstack">
-            <span>Express, Flask, FastAPI</span>
+            <span>Express</span>
           </div>
           <div class="card--techstack">
-            <span>React, Next JS, Laravel</span>
+            <span>React, Next JS</span>
           </div>
           <div class="card--techstack">
             <span>MongoDB, MySQL, SQL Server</span>
@@ -101,16 +102,78 @@
       <section class="section--page">
         <h2>Projects & Accomplishments</h2>
         <div class="card--project">
-          <a href="project1.html"><span>🏆 </span>Ecommerce fashion website</a>
+          <div class="project--left-content">
+            <div class="project--header">
+              <i data-feather="shopping-bag"></i>
+              <h1 href="project1.html" target="_blank">
+                Ecommerce fashion website
+              </h1>
+            </div>
+            <a
+              class="project-link-icon"
+              target="_blank"
+              href="https://github.com/helkass/fostor"
+            >
+              <i data-feather="github"></i>
+            </a>
+          </div>
+          <img
+            src="https://res.cloudinary.com/dqpuhvgdp/image/upload/v1676153790/fostor-fashion_tehaji.svg"
+            alt="fostor"
+            loading="lazy"
+          />
         </div>
 
         <div class="card--project">
-          <a href="project1.html"
-            ><span>🏆 </span>Information and promotion website of Coffee Shop
-            Horizon</a
-          >
+          <div class="project--left-content">
+            <div class="project--header">
+              <i data-feather="coffee"></i>
+              <h1 href="project1.html" target="_blank">
+                Horizon coffee shop MERN
+              </h1>
+            </div>
+            <a
+              class="project-link-icon"
+              target="_blank"
+              href="https://github.com/helkass/horizon-mern"
+            >
+              <i data-feather="github"></i>
+            </a>
+          </div>
+          <img
+            src="https://res.cloudinary.com/dqpuhvgdp/image/upload/v1676171825/horizon-mern_nz36ll.png"
+            alt="images-project-thumbnail"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="card--project">
+          <div class="project--left-content">
+            <div class="project--header">
+              <i data-feather="coffee"></i>
+              <h1 href="project1.html" target="_blank">
+                Slicing design from figma community: Samwayle coffee shop
+              </h1>
+            </div>
+            <a
+              class="project-link-icon"
+              target="_blank"
+              href="https://github.com/helkass/be-fun-project/tree/samwayle-coffee-shop"
+            >
+              <i data-feather="github"></i>
+            </a>
+          </div>
+          <img
+            src="https://github.com/helkass/be-fun-project/blob/samwayle-coffee-shop/src/assets/Thumbnail.png?raw=true"
+            alt="images-project-thumbnail"
+            loading="lazy"
+          />
         </div>
       </section>
     </div>
+
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
