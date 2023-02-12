@@ -168,8 +168,10 @@ a {
   align-items: center;
 }
 
-.card--project .project--header i {
-  display: block;
+.card--project .project--left-content .project--header span {
+  width: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .card--project .project--left-content {
